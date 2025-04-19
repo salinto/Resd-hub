@@ -85,5 +85,4 @@ Tab5:CreateButton({
 })
 
 -- End of GUI Setup
-print("Resd Hub GUI is ready!")
-
+print("Resd Hub GUI 
