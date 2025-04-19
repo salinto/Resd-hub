@@ -1,1 +1,89 @@
+-- Rayfield UI Library Setup
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/justzoid/Roblox-Rayfield/main/source.lua"))()
+local Window = Library:CreateWindow("Resd Hub")  -- Create main window
+
+-- Tabs Creation
+local Tab1 = Window:CreateTab("Main", 4483362458)   -- Main Tab
+local Tab2 = Window:CreateTab("Teleport", 4483362458)  -- Teleport Tab
+local Tab3 = Window:CreateTab("ESP", 4483362458)  -- ESP Tab
+local Tab4 = Window:CreateTab("Devil Fruits", 4483362458)  -- Devil Fruits Tab
+local Tab5 = Window:CreateTab("Misc", 4483362458)  -- Misc Tab
+
+-- Main Tab (Auto Farm, Auto Quest, etc.)
+Tab1:CreateButton({
+    Name = "Auto Farm",
+    Callback = function()
+        print("Auto Farm Feature Triggered")  -- Future functionality
+    end,
+})
+
+Tab1:CreateButton({
+    Name = "Auto Quest",
+    Callback = function()
+        print("Auto Quest Feature Triggered")  -- Future functionality
+    end,
+})
+
+-- Teleport Tab (Teleport to Islands, NPCs)
+Tab2:CreateButton({
+    Name = "Teleport to Island",
+    Callback = function()
+        print("Teleporting to Island...")  -- Future functionality
+    end,
+})
+
+Tab2:CreateButton({
+    Name = "Teleport to NPC",
+    Callback = function()
+        print("Teleporting to NPC...")  -- Future functionality
+    end,
+})
+
+-- ESP Tab (Player ESP, Item ESP)
+Tab3:CreateButton({
+    Name = "Enable Player ESP",
+    Callback = function()
+        print("Player ESP Enabled")  -- Future functionality
+    end,
+})
+
+Tab3:CreateButton({
+    Name = "Enable Item ESP",
+    Callback = function()
+        print("Item ESP Enabled")  -- Future functionality
+    end,
+})
+
+-- Devil Fruits Tab (Fruit Sniper, Auto Buy)
+Tab4:CreateButton({
+    Name = "Fruit Sniper",
+    Callback = function()
+        print("Fruit Sniper Activated")  -- Future functionality
+    end,
+})
+
+Tab4:CreateButton({
+    Name = "Auto Buy Fruits",
+    Callback = function()
+        print("Auto Buy Fruits Activated")  -- Future functionality
+    end,
+})
+
+-- Misc Tab (Auto Stats, Settings, etc.)
+Tab5:CreateButton({
+    Name = "Auto Stats",
+    Callback = function()
+        print("Auto Stats Activated")  -- Future functionality
+    end,
+})
+
+Tab5:CreateButton({
+    Name = "Auto Haki",
+    Callback = function()
+        print("Auto Haki Activated")  -- Future functionality
+    end,
+})
+
+-- End of GUI Setup
+print("Resd Hub GUI is ready!")
 
